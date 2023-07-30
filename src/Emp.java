@@ -1,10 +1,10 @@
 public class Emp {
-    public static String surname;
-    public static String name;
-    public static String midname;
-    static int dept;
-    static int salary;
-    static int id;
+    public  String surname;
+    public  String name;
+    public  String midname;
+     int dept;
+     int salary;
+     int id;
 
     public Emp(String surname, String name, String midname, int dept, int salary, int size) {
         this.surname = surname;
@@ -15,30 +15,30 @@ public class Emp {
         this.id = size;
     }
 
-    public static String getSurname() {
+    public  String getSurname() {
         return surname;
     }
 
-    public static String getName() {
+    public  String getName() {
         return name;
     }
 
-    public static String getMidname() {
+    public  String getMidname() {
         return midname;
     }
 
 
-    public static int getSalary() {
+    public  int getSalary() {
         return salary;
 
     }
 
-    public static int getDept() {
+    public  int getDept() {
         return dept;
 
     }
 
-    public static int getSize() {
+    public  int getSize() {
         return id;
 
     }

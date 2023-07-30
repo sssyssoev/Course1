@@ -1,9 +1,9 @@
 public class Main {
-    public static int size = 0;
+    public   int size = 0;
 
-    public static Emp[] emps = new Emp[10];
+    public   Emp[] emps = new Emp[10];
 
-    public static void main(String[] args) {
+    public  void main(String[] args) {
 
         emps[0] = new Emp("Сергеев", "Сергей", "Сергеевич", 2, 2000, size);
         System.out.println(emps[0].toString());
