@@ -56,6 +56,7 @@ public class Main {
         }
 
 
+        
       // Вычисление суммы затрат на зарплаты
         for(int i=0; i <= size; i++) {
             totalSalary=totalSalary+emps[i].salary;
